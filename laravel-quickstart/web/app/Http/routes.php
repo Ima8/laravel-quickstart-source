@@ -15,6 +15,19 @@ use App\Task;
 use Illuminate\Http\Request;
 
 Route::group(['middleware' => ['web']], function () {
+    
+    Route::get('/task/delall', function () {
+        
+                $tasks = Task::all();
+                foreach($tasks as $task)
+                {
+                    $task->delete();
+                }
+        
+                return response()->json([
+                    'success' => true
+                ]);
+            });
     /**
      * Show Task Dashboard
      */
