@@ -13,7 +13,7 @@
 
 use App\Task;
 use Illuminate\Http\Request;
-
+#master
 Route::group(['middleware' => ['web']], function () {
     
     Route::get('/task/delall', function () {
