@@ -1,0 +1,4 @@
+172.24.0.7 - - [23/Oct/2017:06:40:03 +0000] "GET /favicon.ico HTTP/1.0" 200 0 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:56.0) Gecko/20100101 Firefox/56.0"
+172.24.0.8 - - [27/Oct/2017:16:30:20 +0000] "POST /task HTTP/1.0" 302 197 "http://laravel-quickstart.local/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:56.0) Gecko/20100101 Firefox/56.0"
+172.24.0.8 - - [27/Oct/2017:16:30:22 +0000] "POST /task/1 HTTP/1.0" 302 197 "http://laravel-quickstart.local/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:56.0) Gecko/20100101 Firefox/56.0"
+172.24.0.8 - - [27/Oct/2017:16:30:40 +0000] "POST /task HTTP/1.0" 302 197 "http://laravel-quickstart.local/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:56.0) Gecko/20100101 Firefox/56.0"
